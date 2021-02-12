@@ -1,0 +1,14 @@
+@import "./header.scss";
+@import "./hero.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 20px;
+  /* Colores */
+  --verde10: #1D957F;
+  --gris10: #616161;
+}
