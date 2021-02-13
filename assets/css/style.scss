@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -16,9 +17,10 @@
 main {  
   display: flex;
   justify-content: center; 
+  width: 100vw;
 
 .head {
-  max-width: 1300px;
+  max-width: 1333px;
   position: relative;
   
   .decoration {

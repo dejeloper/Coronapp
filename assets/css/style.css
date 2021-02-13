@@ -177,6 +177,8 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 :root {
@@ -193,10 +195,11 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100vw;
 }
 
 main .head {
-  max-width: 1300px;
+  max-width: 1333px;
   position: relative;
 }
 
