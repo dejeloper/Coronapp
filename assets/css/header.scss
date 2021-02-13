@@ -1,15 +1,16 @@
-.header {
-  margin: 10px 50px;
+.header {  
+  position: relative; 
   display: block; 
-  width: calc(80vw - 100px); 
+  width: calc(94vw); 
   display: flex;
-  align-items: center;
+  align-items: center; 
 
   &-logo {  
     background: white; 
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
+    align-items: center; 
+    width: 25%;
 
     img { 
       margin: 5px; 
@@ -20,7 +21,7 @@
       color: var(--verde10);
       font-family: 'Rubik', sans-serif;
       font-weight: bold;
-      font-size: 1rem;
+      font-size: 1.1rem;
 
       span {
         color: black;
@@ -28,10 +29,12 @@
     }
   }
 
-  &-nav{  
+  &-nav {   
     display: flex; 
     align-items: center; 
     margin: 0 auto; 
+    justify-content: space-evenly; 
+    width: 50%;
 
     .menu  { 
       display: flex;  
@@ -60,6 +63,12 @@
       }
 
     }
+
+  }
+
+  &-decoration {  
+    background: var(--verde10);
+    width: 25%;
 
   }
 

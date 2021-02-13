@@ -12,3 +12,26 @@
   --verde10: #1D957F;
   --gris10: #616161;
 }
+ 
+main {  
+  margin: 35px 3vw; 
+}
+
+.head {
+  
+  .decoration {
+    position: absolute;
+    display: flex;
+    top: 0; 
+    right: 0; 
+    
+    &-box {
+      background: var(--verde10);
+      width: 330px;
+      height: 800px;   
+      border-radius: 35px 0 0 35px;
+    }
+
+  }
+
+}

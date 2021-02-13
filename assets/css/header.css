@@ -1,7 +1,7 @@
 .header {
-  margin: 10px 50px;
+  position: relative;
   display: block;
-  width: calc(80vw - 100px);
+  width: calc(94vw);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +22,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 25%;
 }
 
 .header-logo img {
@@ -33,7 +34,7 @@
   color: var(--verde10);
   font-family: 'Rubik', sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .header-logo h1 span {
@@ -48,6 +49,10 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
 }
 
 .header-nav .menu {
@@ -76,5 +81,10 @@
 
 .header-nav .menu-item a:hover {
   color: var(--gris10);
+}
+
+.header-decoration {
+  background: var(--verde10);
+  width: 25%;
 }
 /*# sourceMappingURL=header.css.map */

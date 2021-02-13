@@ -1,7 +1,7 @@
 .header {
-  margin: 10px 50px;
+  position: relative;
   display: block;
-  width: calc(80vw - 100px);
+  width: calc(94vw);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +22,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 25%;
 }
 
 .header-logo img {
@@ -33,7 +34,7 @@
   color: var(--verde10);
   font-family: 'Rubik', sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .header-logo h1 span {
@@ -48,6 +49,10 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
 }
 
 .header-nav .menu {
@@ -78,39 +83,54 @@
   color: var(--gris10);
 }
 
+.header-decoration {
+  background: var(--verde10);
+  width: 25%;
+}
+
 .hero {
+  position: relative;
   margin: 0 50px;
 }
 
 .hero-content {
-  margin: 170px 0 0px;
-  width: 450px;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.hero-title {
+.hero-content-description {
+  width: 550px;
+  margin-top: 100px;
+}
+
+.hero-content-title {
   color: black;
   font-family: 'Rubik', sans-serif;
   margin: 5px 0;
+  width: 450px;
 }
 
-.hero-title h2 {
+.hero-content-title h2 {
   font-size: 2.3rem;
 }
 
-.hero-title h2 span {
+.hero-content-title h2 span {
   color: var(--verde10);
 }
 
-.hero-text {
+.hero-content-text {
   margin: 15px 0;
   font-family: 'Rubik', sans-serif;
   font-size: 0.7rem;
   color: var(--gris10);
   letter-spacing: 1.2px;
   font-family: 400;
+  width: 450px;
 }
 
-.hero-text .button {
+.hero-content-text .button {
   font-family: 'Raleway', sans-serif;
   margin: 15px 0;
   color: white;
@@ -124,8 +144,18 @@
   text-transform: uppercase;
 }
 
+.hero-content-image {
+  background: url("../images/cuida_tu_familia.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 800px;
+  height: 460px;
+  margin-left: 80px;
+  margin-right: -3vw;
+}
+
 .hero-play {
-  margin-top: 150px;
+  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -153,5 +183,25 @@
   /* Colores */
   --verde10: #1D957F;
   --gris10: #616161;
+}
+
+main {
+  margin: 35px 3vw;
+}
+
+.head .decoration {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  right: 0;
+}
+
+.head .decoration-box {
+  background: var(--verde10);
+  width: 330px;
+  height: 800px;
+  border-radius: 35px 0 0 35px;
 }
 /*# sourceMappingURL=style.css.map */
