@@ -14,10 +14,12 @@
 }
  
 main {  
-  margin: 35px 3vw; 
-}
+  display: flex;
+  justify-content: center; 
 
 .head {
+  max-width: 1300px;
+  position: relative;
   
   .decoration {
     position: absolute;
@@ -34,4 +36,5 @@ main {
 
   }
 
+}
 }

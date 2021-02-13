@@ -1,7 +1,8 @@
 .header {
   position: relative;
+  margin: 35px 3%;
   display: block;
-  width: calc(94vw);
+  width: 94%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,10 +187,20 @@
 }
 
 main {
-  margin: 35px 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.head .decoration {
+main .head {
+  max-width: 1300px;
+  position: relative;
+}
+
+main .head .decoration {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,7 +209,7 @@ main {
   right: 0;
 }
 
-.head .decoration-box {
+main .head .decoration-box {
   background: var(--verde10);
   width: 330px;
   height: 800px;
